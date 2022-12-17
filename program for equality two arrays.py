@@ -1,3 +1,5 @@
+#Python program for checking two arrays are equal or not
+#True or False
 l1=[1,2,3,1,4,1,1]
 l2=[1,2,3,1,4,1,1]
 n1=[]
