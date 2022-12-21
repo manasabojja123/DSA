@@ -26,6 +26,26 @@ if(n1==n2):
         print(False)
 else:
     print(False)
+   
+#efficient code
+class Solution:
+    #Function to check if two arrays are equal or not.
+    def check(self,A,B,N):
+            A.sort()
+            B.sort()
+            
+            for i  in range(len(A)):
+                falg=0
+                if(A[i]==B[i]):
+                    flag=1
+                else:
+                    return False
+                    
+               
+                
+            if(flag==1):
+                return True
+    
     
 
 
